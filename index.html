@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Documents</title>
+    <style type="text/tailwindcss">
+        @theme{
+            --color-grad1: #7A87FB;
+            --color-grad2: #FFD49C;
+            --color-bgcolor: #101111;
+            --color-anonyme: #878787;
+            --color-white: #FFFFFF;
+            --color-blur: #292929;
+            --font-poppins: 'Poppins';
+        }
+    </style>
+</head>
+
+<body class=" bg-bgcolor   text-white ">
+    <header class="flex py-5 relative w-full bg-bgcolor px-3 lg:px-35 lg:mt-4 justify-between items-center">
+        <div class=" flex gap-2 justify-center items-center">
+            <img class="lg:size-16" src="./assets/img/petals.svg" alt="">
+            <p class="  text-poppins text-[18.12px] font-normal lg:mt-3 lg:text-[24px]">znisa</p>
+        </div>
+        <!-- bordure -->
+        <div class="flex  p-[2px] bg-gradient-to-l from-grad1 to-grad2 rounded-4xl">
+            <div class="lg:flex hidden rounded-full px-1 py-1 justify-between    bg-[#1C1C1C] border-pink ">
+                <div class="flex rounded-full  w-19 h-14  bg-[#292929] justify-center items-center"><img
+                        src="./assets/img/Home Icom.svg" alt="">
+                </div>
+                <ul class="flex gap-9 justify-center items-center px-9">
+                    <li
+                        class="flex lg:text-[24px] hover:bg-gradient-to-l hover:text-black hover:font-bold hover:to-grad1  hover:from-grad2 hover:rounded-xl hover:justify-center hover:items-center">
+                        <a href="#About">About</a>
+                    </li>
+                    <li
+                        class="flex lg:text-[24px] hover:bg-gradient-to-l hover:text-black hover:font-bold hover:to-grad1  hover:from-grad2 hover:rounded-xl hover:justify-center hover:items-center">
+                        <a href="#Projects">Projects</a>
+                    </li>
+                    <li
+                        class="flex lg:text-[24px] hover:bg-gradient-to-l hover:text-black hover:font-bold hover:to-grad1  hover:from-grad2 hover:rounded-xl hover:justify-center hover:items-center">
+                        <a href="#Contact me">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hidden lg:flex flex w-[152px] h-[52px] p-[2px] justify-center items-center object-cover">
+            <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+                <button
+                class=" px-3 py-4 rounded-4xl bg-gradient-to-l from-grad1 to-grad2 hover:bg-indigo-700 text-white cursor-pointer font-poppins lg:text-[16px] font-semibold">Hire
+                me
+               </button>
+            </div>
+            <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+                <button
+                class=" px-3 py-4 rounded-3xl  bg-gradient-to-l from-grad1 to-grad2  hover:bg-indigo-700 text-white cursor-pointer font-poppins lg:text-[16px] justify-center items-center"><img
+                    class="justify-center items-center flex size-6" src="./assets/img/icons8-user-48.png"
+                    alt="">
+             </button>
+
+            </div>
+        </div>
+        <!-- cest melanger ici soit attentif -->
+         <div class="flex lg:hidden object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+            <div class="flex lg:hidden object-cover p-[2px] bg-[#292929] rounded-4xl">
+                <button class="lg:hidden cursor-pointer   h-10 w-12 justify-center   flex rounded-3xl  ">
+                    <img class="bg-[#292929] size-10 rounded-3xl" src="./assets/img/jam_menu.svg" alt="">
+                </button>
+               </div>
+         </div>
+    </header>
+
+
+    <div class=" lg:  mt-7  w-full">
+        <div class="lg:mx-37 w-auto h-100vh relative">
+            <div class="grid grid-cols-4 grid-rows-5 lg:grid-cols-6 bg-bgcolor lg:grid-rows-5  bg-bgcolor  w-full">
+                <!-- Top row (4 cells) -->
+                <div class="row-span-1 border border-zinc-800 px-5   lg:py-14"></div>
+                <div class="row-span-1 border border-zinc-800 px-5   lg:py-14"></div>
+                <div class="row-span-1 border border-zinc-800 px-5   lg:py-14"></div>
+                <div class="row-span-1 border border-zinc-800 px-5   lg:py-14"></div>
+                <div class="row-span-1 border border-zinc-800 px-5  lg:py-14 lg:flex hidden "></div>
+                <div class="row-span-1 border border-zinc-800 px-3 py-14 lg:flex hidden "></div>
+
+                <!-- middle cells -->
+
+                <div class="row-span-1 border border-zinc-800 lg:flex hidden p-7"></div>
+                <div
+                    class="col-span-4 lg:col-span-4 lg:row-span-4 row-span-2  border-1 border-transparent  justify-items-center items-center lg:py-28">
+                    <div class=" flex flex-col gap-9 justify-center items-center ">
+                        <p class="font-poppins font-normal lg:text-[32px] text-[18px]">Salut ! Moi, c’est Fredy Hash-K
+                        </p>
+                        <p class=" font-normal font-poppins flex lg:text-[16px]/5 text-[9px] justify-center items-center">
+                            <span class="text-transparent">__</span> Développeur junior prêt à transformer des idées en code. J’aime relever des défis techniques et concevoir des applications <br> qui allient performance et simplicité. Ce portfolio est une vitrine de mes projets et de ma progression dans  le développement web.  Explorez, et n’hésitez pas à me contacter !"
+                        </p>
+                       <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+                        <button
+                        class="rounded-3xl bg-gradient-to-l from-grad1 to-grad2 lg:w-35 w-auto hover:bg-indigo-700 text-white font-bold py-2 px-6 text-[9px] lg:text-[16px] rounded">Hire
+                        me
+                    </button>
+                       </div>
+                    </div>
+                </div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:flex hidden"></div>
+                <!--  -->
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+                <div class="row-span-1  border border-zinc-800 px-5 lg:flex hidden"></div>
+
+
+                <!--  -->
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 lg:flex hidden "></div>
+                <div class="row-span-1 border border-zinc-800 px-5 lg:py-14 lg:flex hidden "></div>
+                <!--  -->
+                <div class="row-span-1 border border-zinc-800 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py-14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py-14 lg:flex hidden "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py-14 lg:flex hidden "></div>
+                <!--  -->
+                <div class="row-span-1 border border-zinc-800 lg:py14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py14 "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py14 lg:flex hidden "></div>
+                <div class="row-span-1 border border-zinc-800 lg:py14 lg:flex hidden  "></div>
+            </div>
+            <div class="lg:flex hidden absolute    bottom-85">
+                <img src="./assets/img/Portal.svg" alt="">
+            </div>
+            <div class="lg:flex hidden absolute  right-61 lg:right-44 bottom-168">
+                <img src="./assets/img/Portal.svg" alt="">
+            </div>
+            </div> 
+        </div>
+        <!-- line -->
+         <div class="w-full flex bg-zinc-800 h-[1px] "></div>
+        <div
+            class="lg:overscroll-hidden cursor-default scrollbar-x-hidden py-4 mx-6 overflow-x-auto overflow-y-hidden scroll-smooth whitespace-nowrap ">
+            <div class="flex flex-row lg:justify-between gap-9    items-center lg:py-4 lg:px-38 scroll-smooth   ">
+                <a href="https://www.framer.com/?via=architect99&gad_source=1&gclid=CjwKCAiAt4C-BhBcEiwA8Kp0CVHTWF5Yu4dUgtgDrOG20uKxmX_JhBd3Ykm9IHr0riY80MSS3skhnBoC6FIQAvD_BwE"
+                    class=" font-normal font-poppins text-[14px] lg:text-[20px]  hover:transition-all hover:duration-300 hover:text-xl hover:drop-shadow-lg">Framer</a>
+                <img class="size-4 lg:size-7 scroll-smooth" src="./assets/img/Vector.svg" alt="">
+                <a href="https://webflow.com/"
+                    class=" font-normal font-poppins text-[14px] lg:text-[20px] hover:transition-all hover:duration-300 hover:text-xl hover:drop-shadow-lg">Webflow</a>
+                <img class="size-4 lg:size-7" src="./assets/img/Vector.svg" alt="">
+                <a href="https://www.figma.com/community/file/994611219185887302"
+                    class=" font-normal font-poppins text-[14px] lg:text-[20px] hover:transition-all hover:duration-300 hover:text-xl hover:drop-shadow-lg">Figma</a>
+                <img class="size-4 lg:size-7" src="./assets/img/Vector.svg" alt="">
+                <a href="https://www.notion.com/fr"
+                    class="hover:transition-all hover:duration-300 hover:text-xl hover:drop-shadow-lg font-normal font-poppins text-[14px] lg:text-[20px]">Notion</a>
+                <img class="size-4 lg:size-7" src="./assets/img/Vector.svg" alt="">
+            </div>
+        </div>
+        <!-- <div class="w-full flex bg-zinc-800 h-[1px] "></div> -->
+    </div>
+    <section  id="About">
+    <div class="flex  justify-start px-7 items-center  lg:px-35 my-10 lg:my-15">
+        <p class="font-poppins font-normal text-[18px] cursor-default lg:text-[40px]">My process to design</p>
+        <img class="lg:size-10  size-6 mx-3 lg:hover:size-13 hover:size-9" src="./assets/img/portal2.svg" alt="">
+    </div>
+    <div class="flex lg:px-35  px-7">
+        <!-- flex1 -->
+        <!-- pour les trois ligne -->
+        <div class="flex flex-1 flex-col  gap-9 ">
+            <!-- line-one -->
+            <div class="flex flex-col justify-center items-center gap-2">
+                <div
+                    class=" justify-center items-center flex size-13 lg:size-16 rounded-full border border-2 border-white p-5 text-2xl  text-white px-6 py-2 rounded-full hover:bg-gradient-to-r hover:from-grad1 hover:to-grad2 transition duration-300 hover:text-black hover:font-bold cursor-default">
+                    1</div>
+                <div class="w-[2px] lg:h-67 h-60 bg-white"></div>
+
+            </div>
+            <!-- line 2 -->
+            <div class="flex flex-col justify-center items-center gap-2">
+                <div
+                    class=" justify-center items-center flex size-13 lg:size-16 rounded-full border border-2 border-white p-5 text-2xl  text-white px-6 py-2 rounded-full hover:bg-gradient-to-r hover:from-grad1 hover:to-grad2 transition duration-300 hover:text-black hover:font-bold cursor-default">
+                    2</div>
+                <div class="w-[2px] lg:h-47 h-30 bg-white"></div>
+
+            </div>
+            <!-- line 3 -->
+            <div class="flex flex-col justify-center items-center gap-2">
+                <div
+                    class=" justify-center items-center flex size-13 lg:size-16 rounded-full border border-2 border-white p-5 text-2xl  text-white px-6 py-2 rounded-full hover:bg-gradient-to-r hover:from-grad1 hover:to-grad2 transition duration-300 hover:text-black hover:font-bold cursor-default">
+                    3</div>
+                <div class="w-[2px] lg:h-0 h-4 bg-white"></div>
+
+            </div>
+        </div>
+        <!-- flex2 -->
+        <div class="flex flex-4  flex-col  ">
+            <!-- text1 de la ligne 1 -->
+            <div class="flex flex-col gap-5 mx-3 lg:mx-0  ">
+                <img class="size-13 lg:size-15" src="./assets/img/Ellipse 17.svg" alt="">
+                <h2 class="text-white text-2xl text-[22px] font-poppins font-normal ">Step 1: Product design Research
+                </h2>
+                <p class="text-white text-poppins text-[9px] lg:text-[19px]">This initial step involves a systematic and
+                    thorough <br> exploration of the market landscape, user needs, and existing <br> solutions.</p>
+                <button
+                    class="  lg:w-50 w-30 border border-gradient-to-r  from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:bg-gradient-to-r hover:from-grad1 hover:to-grad2 transition duration-300 hover:text-black hover:font-bold lg:text-[19px] text-[9px]">
+                    See Examples
+                </button>
+            </div>
+            <!-- text2 de la ligne 2 -->
+            <div class="flex flex-col gap-5 mx-3 lg:mx-0 mt-24 lg:mt-25">
+                <img class="size-13 lg:size-15 transform scale-y-[-1]  " src="./assets/img/Ellipse 17.svg" alt="">
+                <h2 class="text-white text-2xl text-[22px] font-poppins font-normal ">Step 2: UI design in figma</h2>
+                <p class="text-white text-poppins text-[9px] lg:text-[19px]">This initial step involves a systematic and
+                    thorough <br> exploration of the market landscape, user needs, and existing <br> solutions.
+            </div>
+            <!-- text3 de la ligne 3 -->
+            <div class="flex flex-col gap-5 mx-3 lg:mx-0 mt-14 lg:mt-20">
+                <img class="size-13 lg:size-15 transform scale-x-[-1] " src="./assets/img/Ellipse 17.svg" alt="">
+                <h2 class="text-white text-2xl text-[22px] font-poppins font-normal ">Step 3: No-code develop in webflow
+                </h2>
+                <p class="text-white text-poppins text-[9px] lg:text-[19px]">This initial step involves a systematic and
+                    thorough <br> exploration of the market landscape, user needs, and existing <br> solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Projects">
+    <div class="flex  justify-start px-7 items-center   lg:px-35 my-10 lg:my-15">
+        <p class="font-poppins font-normal text-[18px] cursor-default lg:text-[40px]" id="name">Some featured projects</p>
+        <img class="lg:size-10  size-6 mx-3 lg:hover:size-13 hover:size-9" src="./assets/img/portal2.svg" alt="">
+    </div>
+    <div class="flex my-7 rounded-xl mx-5   bg-[#151515] lg:mx-70 flex-col lg:flex-row  py-3 px-7">
+        <a href="http://127.0.0.1:5504/index%20.html">
+            <div class="lg:w-150 w-full my-5  lg:h-99 bg-gradient-to-r from-grad1 to-grad2 h-85">
+                <img  class=" w-full h-full" src="./assets/img/scr3.png" alt="">
+            </div>
+        </a>
+        <div class="flex-row lg:px-40  lg:flex-col lg:justify-center lg:items-center lg:flex">
+            <div
+                class=" border  rounded-full lg:rounded-full lg:w-15 border-1 w-9 lg:w-8 justify-center items-center lg:text-3xl lg:pl-4 cursor-default p-2 bg-blur bg-linear-to-b from-[#1E1E1E0000] to-[#7D7D7D] lg:size-15 size-10 ">
+                1</div>
+            <div class="text-2xl font-bold text-[20.93px] lg:text-[36px] cursor-default">Projet 2: Canal 2</div>
+        </div>
+    </div>
+    <!-- project2 part -->
+    <div class="flex my-7 rounded-xl mx-5  bg-[#151515] lg:mx-70 flex-col lg:flex-row  py-3 px-7">
+       <a href=""><div class="lg:w-150 w-full my-5 lg:h-99 bg-gradient-to-r from-grad1 to-grad2 h-85"> <img class="w-full" src="./assets/img/Screenshot from 2025-03-01 15-51-27.png" alt=""></div></a> 
+        <div class="flex-row lg:px-40   lg:flex-col lg:justify-center lg:items-center lg:flex">
+            <div
+                class=" border  rounded-full lg:rounded-full lg:w-15 border-1 w-9 lg:w-8 justify-center items-center lg:text-3xl lg:pl-4 cursor-default p-2 bg-blur bg-linear-to-b from-[#1E1E1E0000] to-[#7D7D7D] lg:size-15 size-10 ">
+                2</div>
+            <div class="text-2xl font-bold text-[20.93px] lg:text-[36px] cursor-default">Projet 8 : Wedding plan</div>
+        </div>
+    </div>
+    <!-- project 3 part -->
+    <div class="flex my-7 rounded-xl mx-5  bg-[#151515] lg:mx-70 flex-col lg:flex-row py-3 px-7">
+        <a href="http://127.0.0.1:5503/index.html"><div class="lg:w-150 w-full my-5 lg:h-99 bg-gradient-to-r from-grad1 to-grad2 h-85">
+            <img class="w-full" src="./assets/img/scr2.png" alt="">
+        </div>
+        </a>
+        <div class="flex-row lg:px-40  lg:flex-col lg:justify-center lg:items-center lg:flex">
+            <div
+                class=" border  rounded-full lg:rounded-full lg:w-15 border-1 w-9 lg:w-8 justify-center items-center lg:text-3xl lg:pl-4 cursor-default p-2 bg-blur bg-linear-to-b from-[#1E1E1E0000] to-[#7D7D7D] lg:size-15 size-10 ">
+                3</div>
+            <div class="text-2xl font-bold text-[20.93px] lg:text-[36px] cursor-default">Projet6:Landing Page</div>
+        </div>
+    </div>
+</section>
+    <div class="flex  justify-start px-7 items-center  lg:px-35 my-10 lg:my-15">
+        <p class="font-poppins font-normal text-[18px] cursor-default lg:text-[40px]">Client testimonials</p>
+        <img class="lg:size-10  size-6 mx-3 lg:hover:size-13 hover:size-9" src="./assets/img/portal2.svg" alt="">
+    </div>
+
+    <div class="flex lg"></div>
+    <div class="container  mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-15 lg:gap-y-10 gap-4 lg:ml-27 lg:mr-80">
+            <!-- One -->
+            <div class="p-[3px]  rounded-xl bg-gradient-to-br from-grad1  via-transparent   to-transparent">
+                <div
+                    class="p-3  rounded-lg flex  flex-col gap-8 text-white h-auto lg:h-auto md:h-auto lg:h-[30vh] bg-[#151515] flex-col">
+                    <!-- heading of textimonials -->
+                    <div class="flex flex-row gap-32 justify-between ">
+                        <div class="flex gap-6 ">
+                            <div class="block rounded-full lg:size-10 size-10 bg-[#878787]"></div>
+                            <p
+                                class="text-[16px]/[28px] lg:text-[13.25px]/[23.19px] font-poppins font-normal text-white ">
+                                Client Name . <br> <span
+                                    class="block font-poppins text-[9.94px]/[14.91px] lg:text-[12px]/[18pxpx] font-normal text-white ">Product
+                                    designer</span></p>
+                        </div>
+                        <div class="flex"> <img src="./assets/img/apostr.svg" alt=""></div>
+                    </div>
+                    <!-- text -->
+                    <p class=" flex flex-row">s simply dummy text of the printing and <br> typesetting industry. Lorem
+                        Ipsum has been the <br> industry's standard dummy text ever since the </p>
+                </div>
+            </div>
+            <div class="p-[3px]  rounded-xl bg-gradient-to-br from-grad1  via-transparent   to-transparent">
+                <div
+                    class="p-3  rounded-lg flex  flex-col gap-8 text-white h-auto lg:h-auto md:h-auto lg:h-[30vh] bg-[#151515] flex-col">
+                    <!-- heading of textimonials -->
+                    <div class="flex flex-row gap-32 justify-between ">
+                        <div class="flex gap-6 ">
+                            <div class="block rounded-full lg:size-10 size-10 bg-[#878787]"></div>
+                            <p
+                                class="text-[16px]/[28px] lg:text-[13.25px]/[23.19px] font-poppins font-normal text-white ">
+                                Client Name . <br> <span
+                                    class="block font-poppins text-[9.94px]/[14.91px] lg:text-[12px]/[18pxpx] font-normal text-white ">Product
+                                    designer</span></p>
+                        </div>
+                        <div class="flex"> <img src="./assets/img/apostr.svg" alt=""></div>
+                    </div>
+                    <!-- text -->
+                    <p class=" flex flex-row">s simply dummy text of the printing and <br> typesetting industry. Lorem
+                        Ipsum has been the <br> industry's standard dummy text ever since the </p>
+                </div>
+            </div>
+            <div class="p-[3px]  rounded-xl bg-gradient-to-br from-grad1  via-transparent   to-transparent">
+                <div
+                    class="p-3  rounded-lg flex  flex-col gap-8 text-white h-auto lg:h-auto md:h-auto lg:h-[30vh] bg-[#151515] flex-col">
+                    <!-- heading of textimonials -->
+                    <div class="flex flex-row gap-32 justify-between ">
+                        <div class="flex gap-6 ">
+                            <div class="block rounded-full lg:size-10 size-10 bg-[#878787]"></div>
+                            <p
+                                class="text-[16px]/[28px] lg:text-[13.25px]/[23.19px] font-poppins font-normal text-white ">
+                                Client Name . <br> <span
+                                    class="block font-poppins text-[9.94px]/[14.91px] lg:text-[12px]/[18pxpx] font-normal text-white ">Product
+                                    designer</span></p>
+                        </div>
+                        
+                        <div class="flex"> <img src="./assets/img/apostr.svg" alt=""></div>
+                    </div>
+                    <!-- text -->
+                    <p class=" flex flex-row">s simply dummy text of the printing and <br> typesetting industry. Lorem
+                        Ipsum has been the <br> industry's standard dummy text ever since the </p>
+                </div>
+            </div>
+            <div class="p-[3px]  rounded-xl bg-gradient-to-br from-grad1  via-transparent   to-transparent">
+                <div
+                    class="p-3  rounded-lg flex  flex-col gap-8 text-white h-auto lg:h-auto md:h-auto lg:h-[30vh] bg-[#151515] flex-col">
+                    <!-- heading of textimonials -->
+                    <div class="flex flex-row gap-32 justify-between ">
+                        <div class="flex gap-6 ">
+                            <div class="block rounded-full lg:size-10 size-10 bg-[#878787]"></div>
+                            <p
+                                class="text-[16px]/[28px] lg:text-[13.25px]/[23.19px] font-poppins font-normal text-white ">
+                                Client Name . <br> <span
+                                    class="block font-poppins text-[9.94px]/[14.91px] lg:text-[12px]/[18pxpx] font-normal text-white ">Product
+                                    designer</span></p>
+                        </div>
+                        <div class="flex"> <img src="./assets/img/apostr.svg" alt=""></div>
+                    </div>
+                    <!-- text -->
+                    <p class=" flex flex-row">s simply dummy text of the printing and <br> typesetting industry. Lorem
+                        Ipsum has been the <br> industry's standard dummy text ever since the </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex my-20 mr-20 ml-7">
+        <div class="flex lg:flex-1 flex-col">
+            <div class="flex  justify-start px-7 items-center  ">
+                <p class="font-poppins font-normal lg:ml-27 lg:my-7 text-[18px] cursor-default lg:text-[40px]/8">Have
+                    idea about project?</p>
+                <img class="lg:size-10  size-6 mx-3 lg:hover:size-13 hover:size-9" src="./assets/img/portal2.svg"
+                    alt="">
+            </div>
+            <div class="justify-start my-10 pl-6 lg:px-35 flex flex-col gap-3 lg:gap-6">
+                <p class="font-poppins font-normal lg:text-[16px] text-[9px]">Write anything here something about
+                    yourself to <br> showcase what actually you doing or targeting etc.</p>
+                <button
+                    class="  lg:w-50 w-40 border border-gradient-to-r  px-6 lg:py-2 py-1 rounded-full bg-gradient-to-r from-grad1 to-grad2  text-black font-bold lg:text-[16px] text-[9px]">
+                    Send us a message
+                </button>
+            </div>
+
+        </div>
+        <div class="lg:flex lg:flex-1 hidden">
+            <!-- table 2 -->
+            <div class="hidden lg:block md:flex-1 mt-6 lg:flex bg-white">
+                <div class="flex-6 flex flex-col">
+                    <div class="flex-3 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-br-xl"></div>
+                    <div class="flex-1 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-tr-xl"></div>
+                    <div class="flex-1 bg-page border-r-[0.1px] border-zinc-800 bg-[#101111] "></div>
+                </div>
+                <div class="flex-2 flex flex-col">
+                    <div class="flex-3 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-bl-xl"></div>
+                    <div class="flex-1 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-tl-xl rounded-br-xl"></div>
+                    <div class="flex-1 bg-page border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-tr-xl"></div>
+                </div>
+                <div class="flex-2 flex flex-col">
+                    <div class="flex-3 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111]"></div>
+                    <div class="flex-1 border-b-[0.1px] border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-bl-xl"></div>
+                    <div class="flex-1 bg-page border-r-[0.1px] border-zinc-800 bg-[#101111] rounded-tl-xl"></div>
+                </div>
+                <div class="flex-1 bg-page flex flex-col ">
+                    <div class="flex-3 border-b-[0.1px] border-zinc-800 bg-[#101111] "></div>
+                    <div class="flex-1 border-b-[0.1px] border-zinc-800 bg-[#101111] "></div>
+                    <div class="flex-1  bg-[#101111]"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AVANT DE MODIFIER PENSE A TE RASSURES QUE LA DERNIERE FOIS QUAND TU TRAVAILLE LA TAS MIS DES PRPRIETET QUE TU AS EN SUIT CACHE EN HIDDEN DES 2 COTE DU RESPONSIVE  -->
+<section id="Contact me"><div class="lg:flex hidden absolute  object-cover  bottom-85">
+                <img src="./assets/img/Portal.svg" alt="">
+            </div>
+            <div class="lg:flex hidden absolute  object-cover right-61 lg:right-44 bottom-168">
+                <img src="./assets/img/Portal.svg" alt="">
+            </div>
+    <header
+        class="flex py-5 flex-col-reverse lg:flex-row   lg:w-auto w-100 gap-9 px-5  lg:px-35 lg:mt-4 lg:justify-between lg:items-center">
+        <div class=" justify-start  flex gap-2 cursor-default lg:justify-center lg:items-center">
+            <img class="lg:size-16 " src="./assets/img/petals.svg" alt="">
+            <p class="  text-poppins text-[18.12px] font-normal lg:mt-3 lg:text-[24px]">znisa</p>
+        </div>
+        <!-- bordure -->
+        <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad1 to-grad2 rounded-4xl">
+            <div class="lg:flex flex  cursor-default rounded-full px-1 py-1 justify-between w-full    bg-[#1C1C1C]   ">
+                <div class="lg:flex hidden rounded-full  w-19 h-14  bg-[#292929] justify-center items-center"><img
+                        src="./assets/img/x.svg" alt="">
+                </div>
+                <ul class="flex gap-9 justify-center items-center px-9">
+                    <div
+                        class="flex lg:hidden rounded-full size-11  lg:w-19 lg:h-14  bg-[#292929] justify-center items-center">
+                        <img src="./assets/img/x.svg" alt="">
+                    </div>
+                    <div class="flex rounded-full  size-11  lg:w-19 lg:h-14   bg-[#292929] justify-center items-center">
+                        <img src="./assets/img/ball.svg" alt="">
+                    </div>
+                    <div class="flex rounded-full  size-11  lg:w-19 lg:h-14   bg-[#292929] justify-center items-center">
+                        <img src="./assets/img/instagram.svg" alt="">
+                    </div>
+                    <div class="flex rounded-full size-11  lg:w-19 lg:h-14  bg-[#292929] justify-center items-center">
+                        <img src="./assets/img/facebook.svg" alt="">
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="hidden lg:flex flex w-[152px] h-[52px] p-[2px] justify-center items-center object-cover">
+            <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+                <button
+                class=" px-3 py-4 rounded-4xl bg-gradient-to-l from-grad1 to-grad2 hover:bg-indigo-700 text-white cursor-pointer font-poppins lg:text-[16px] font-semibold">Hire
+                me
+               </button>
+            </div>
+            <div class="flex object-cover p-[2px] bg-gradient-to-l from-grad2 to-grad1 rounded-4xl">
+                <button
+                class=" px-3 py-4 rounded-3xl  bg-gradient-to-l from-grad1 to-grad2  hover:bg-indigo-700 text-white cursor-pointer font-poppins lg:text-[16px] justify-center items-center"><img
+                    class="justify-center items-center flex size-6" src="./assets/img/icons8-user-48.png"
+                    alt="">
+             </button>
+
+            </div>
+        </div>
+    </header>
+</section>
+</body>
+
+</html>
